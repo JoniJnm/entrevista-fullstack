@@ -63,7 +63,7 @@ Un ejemplo de lo que devuelve la llamada a editoriales es el siguiente:
 
 Se quiere un archivo JavaScript que, utilizando jQuery, al pulsar en los botones correspondientes muestre en una tabla el contenido del servidor (en el elemento `data-content`).
 
-La tabla para los libros debe mostrarse horizontal, de la siguiente manera:
+La tabla para los libros debe mostrarse horizontal, de la siguiente manera (obviar primera fila, aparece así por temas de markdown):
 
 &nbsp;         | &nbsp;                   | &nbsp; | &nbsp;
 ------         | -----                    | -----  | -----
@@ -78,5 +78,5 @@ Lo mismo para las editoriales:
 **Nombre** | Santillana | 1
 **Libros** | SM         | 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NDAyNDM5XX0=
+eyJoaXN0b3J5IjpbMTExNTIyNzgxMF19
 -->
