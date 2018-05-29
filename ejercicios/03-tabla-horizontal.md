@@ -3,19 +3,31 @@
 Dado el siguiente HTML:
 
 ```html
-<div>
-	<div>
-		<button data-show-books>Mostrar libros</button>
-		<button data-show-publishers>Mostrar editoriales</button>
-	</div>
-	<div data-content></div>
-</div>
+<!doctype html>
+<html>
+	<html>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script>
+			//aquí código JavaScript
+		</script>
+	</html>
+	<body>
+		<div>
+			<div>
+				<button data-show-books>Mostrar libros</button>
+				<button data-show-publishers>Mostrar editoriales</button>
+			</div>
+			<div data-content></div>
+		</div>
+	</body>
+</html>
 ```
 Se quiere que al hacer click en el botón `Mostrar libros` se muestre un listado de libros, lo mismo para editoriales.
 
 Los libros se pueden obtener con una llamada REST, `GET /books`; lo mismo para editoriales, `GET /publishers`.
 
-> Nota: Se pueden crear dos funciones (una para libros y otras para
+> Nota: Crear dos funciones (una para libros y otras para
 > editoriales) que devuelvan una promesa con el JSON de ejemplo, así se
 > evitan llamadas reales a un servidor.
 
@@ -82,5 +94,6 @@ Lo mismo para las editoriales:
 **Nombre** | Santillana | 1
 **Libros** | SM         | 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODM4MjUwNiwxMTE1MjI3ODEwXX0=
+eyJoaXN0b3J5IjpbMTM3NDU0Njc4MiwtNDg4MzgyNTA2LDExMT
+UyMjc4MTBdfQ==
 -->
