@@ -14,7 +14,7 @@ Para el siguiente ejemplo:
 ```html
 <div id="footer">
 	<p><a href="/" 
-		data-href="">Página principal</a>
+		data-href="https://github.com">Página principal</a>
 	</p>
 	<p><a class="prueba" href="https://github.com">Github</a></p>
 	<p><a href='https://www.google.es/search?q="volar rápido"'>Volar rápido</a></p>
@@ -26,12 +26,12 @@ Debería devolver:
 ```html
 <div id="footer">
 	<p><a href="/" 
-		data-href="">Página principal</a>
+		data-href="https://github.com">Página principal</a>
 	</p>
 	<p><a class="prueba" href="https://go.com/?url=https%3A%2F%2Fgithub.com">Github</a></p>
 	<p><a href='https://go.com/?url=https%3A%2F%2Fwww.google.es%2Fsearch%3Fq%3D%22volar+r%C3%A1pido%22'>Volar rápido</a></p>
 </div>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTUxMzMxMV19
+eyJoaXN0b3J5IjpbMTA3NjA3NTE3NywyMDgxNTEzMzExXX0=
 -->
