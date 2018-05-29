@@ -15,6 +15,10 @@ Se quiere que al hacer click en el botón `Mostrar libros` se muestre un listado
 
 Los libros se pueden obtener con una llamada REST, `GET /books`; lo mismo para editoriales, `GET /publishers`.
 
+> Nota: Se pueden crear dos funciones (una para libros y otras para
+> editoriales) que devuelvan una promesa con el JSON de ejemplo, así se
+> evitan llamadas reales a un servidor.
+
 Un ejemplo de lo que devuelve libros es el siguiente:
 
 ```javascript
@@ -78,5 +82,5 @@ Lo mismo para las editoriales:
 **Nombre** | Santillana | 1
 **Libros** | SM         | 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTIyNzgxMF19
+eyJoaXN0b3J5IjpbLTQ4ODM4MjUwNiwxMTE1MjI3ODEwXX0=
 -->
